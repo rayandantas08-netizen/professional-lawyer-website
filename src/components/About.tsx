@@ -16,8 +16,8 @@ export default function About() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Image Side */}
-          <div className={`relative ${isInView ? 'animate-slideInLeft' : 'opacity-0'}`}>
+          {/* Image Side - REMOVIDO o relative */}
+          <div className={`${isInView ? 'animate-slideInLeft' : 'opacity-0'}`}>
             <div className="relative">
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663161078594/ZUMkEfcLhaKblkBV.png"
@@ -28,19 +28,19 @@ export default function About() {
               <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-secondary/30 rounded-2xl -z-10" />
             </div>
 
-            {/* Floating card */}
-            <div className="absolute -bottom-6 -left-4 sm:left-4 bg-white rounded-xl shadow-xl p-5 border-l-4 border-secondary max-w-[240px]">
+            {/* Floating card - AGORA FORA DO POSICIONAMENTO ABSOLUTO */}
+            <div className="mt-4 -ml-4 sm:ml-4 bg-white rounded-xl shadow-xl p-5 border-l-4 border-secondary max-w-[240px]">
               <div className="text-3xl font-bold text-primary font-[family-name:var(--font-heading)]">2025</div>
-              <p className="text-sm text-gray mt-1">Fundado com o propósito de excelência jurídica</p>
+              <p className="text-sm text-gray-600 mt-1">Fundado com o propósito de excelência jurídica</p>
             </div>
           </div>
 
-          {/* Content Side */}
+          {/* Content Side - mantido igual */}
           <div className={`${isInView ? 'animate-slideInRight' : 'opacity-0'}`}>
             <h3 className="text-2xl sm:text-3xl font-bold text-primary mb-6 font-[family-name:var(--font-heading)]">
               Compromisso com a Excelência Jurídica
             </h3>
-            <div className="space-y-4 text-gray leading-relaxed">
+            <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
                 O escritório <strong className="text-primary">Santana & Dantas</strong> foi fundado em 2025 com o propósito de oferecer assessoria jurídica completa e especializada nas áreas de Direito Previdenciário, Trabalhista, Tributário e da Saúde.
               </p>
@@ -53,7 +53,7 @@ export default function About() {
             </div>
 
             {/* Mission Box */}
-            <div className="mt-8 bg-light rounded-xl p-6 border-l-4 border-primary">
+            <div className="mt-8 bg-gray-50 rounded-xl p-6 border-l-4 border-primary">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
                   <svg className="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -62,7 +62,7 @@ export default function About() {
                 </div>
                 <h4 className="text-lg font-bold text-primary font-[family-name:var(--font-heading)]">Missão do Escritório</h4>
               </div>
-              <p className="text-gray text-sm leading-relaxed">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 Proporcionar segurança jurídica e soluções eficientes para nossos clientes, através de uma advocacia ética, moderna e orientada para resultados.
               </p>
             </div>
@@ -75,9 +75,9 @@ export default function About() {
                 { icon: '🤝', text: 'Atendimento Personalizado' },
                 { icon: '📚', text: 'Atualização Constante' },
               ].map((item) => (
-                <div key={item.text} className="flex items-center gap-3 p-3 rounded-lg hover:bg-light transition-colors">
+                <div key={item.text} className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors">
                   <span className="text-xl">{item.icon}</span>
-                  <span className="text-sm font-medium text-dark">{item.text}</span>
+                  <span className="text-sm font-medium text-gray-800">{item.text}</span>
                 </div>
               ))}
             </div>
