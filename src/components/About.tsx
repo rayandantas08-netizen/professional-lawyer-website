@@ -10,7 +10,7 @@ export default function About() {
         <div className={`text-center mb-16 ${isInView ? 'animate-fadeInUp' : 'opacity-0'}`}>
           <span className="text-secondary font-semibold text-sm uppercase tracking-[4px]">Quem Somos</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary mt-3 font-[family-name:var(--font-heading)]">
-            Sobre o Escritório
+            Sobre o Escritório 
           </h2>
           <div className="w-20 h-1 bg-secondary mx-auto mt-4" />
         </div>
@@ -70,10 +70,10 @@ export default function About() {
             {/* Key Features */}
             <div className="mt-8 grid grid-cols-2 gap-4">
               {[
-                { icon: '⚖️', text: 'Ética Profissional' },
-                { icon: '🎯', text: 'Foco em Resultados' },
-                { icon: '🤝', text: 'Atendimento Personalizado' },
-                { icon: '📚', text: 'Atualização Constante' },
+                { icon: '*', text: 'Ética Profissional' },
+                { icon: '*', text: 'Foco em Resultados' },
+                { icon: '*', text: 'Atendimento Personalizado' },
+                { icon: '*', text: 'Atualização Constante' },
               ].map((item) => (
                 <div key={item.text} className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors">
                   <span className="text-xl">{item.icon}</span>
