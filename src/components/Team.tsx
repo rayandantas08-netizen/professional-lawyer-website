@@ -97,11 +97,11 @@ export default function Team() {
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               {/* Photo */}
-              <div className="relative overflow-hidden h-80">
+              <div className="relative overflow-hidden h-[450px]">
                 <img
                   src={member.photo}
                   alt={member.name}
-                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-6 right-6">
@@ -157,7 +157,7 @@ export default function Team() {
                 <img
                   src={selectedMember.photo}
                   alt={selectedMember.name}
-                  className="w-20 h-20 rounded-full object-cover object-top border-3 border-secondary"
+                  className="w-20 h-20 rounded-full object-cover object-center border-3 border-secondary"
                 />
                 <div>
                   <h3 className="text-2xl font-bold text-white font-[family-name:var(--font-heading)]">{selectedMember.name}</h3>
