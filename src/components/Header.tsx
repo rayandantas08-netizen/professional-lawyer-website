@@ -69,10 +69,12 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="https://wa.me/5598984994578?text=Olá! Gostaria de agendar uma consulta."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-secondary text-primary px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-secondary-light transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
+              href="#contato"
+              onClick={(e) => {
+                e.preventDefault();
+                document.querySelector('#contato')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }}
+              className="bg-[#C9A959] text-[#6B0000] px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D4B768] transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
             >
               Agendar Consulta
             </a>
@@ -112,10 +114,13 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="https://wa.me/5598984994578?text=Olá! Gostaria de agendar uma consulta."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-center bg-secondary text-primary px-6 py-3 rounded-lg font-semibold mt-2 hover:bg-secondary-light transition-colors"
+            href="#contato"
+            onClick={(e) => {
+              e.preventDefault();
+              document.querySelector('#contato')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              setMobileOpen(false);
+            }}
+            className="block text-center bg-[#C9A959] text-[#6B0000] px-6 py-3 rounded-lg font-semibold mt-2 hover:bg-[#D4B768] transition-colors"
           >
             Agendar Consulta
           </a>
