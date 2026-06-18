@@ -69,9 +69,9 @@ export default function Hero() {
         {/* Stats */}
         <div className="animate-fadeInUp delay-500 mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
           {[
-            { number: '8+', label: 'Anos de Experiência' },
+            { number: '+8', label: 'Anos de Experiência' },
             { number: '95%', label: 'Taxa de Sucesso' },
-            { number: '500+', label: 'Clientes Atendidos' },
+            { number: '50+', label: 'Clientes Atendidos' },
             { number: '4', label: 'Áreas de Atuação' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
