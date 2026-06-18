@@ -70,7 +70,7 @@ export default function About() {
             {/* Key Features */}
             <div className="mt-8 grid grid-cols-2 gap-4">
               {[
-                { icon: '*', text: 'Ética Profissional' },
+                { icon: '**', text: 'Ética Profissional' },
                 { icon: '*', text: 'Foco em Resultados' },
                 { icon: '*', text: 'Atendimento Personalizado' },
                 { icon: '*', text: 'Atualização Constante' },
