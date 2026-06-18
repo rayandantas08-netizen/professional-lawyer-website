@@ -33,20 +33,16 @@ export default function Header() {
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-[#6B0000]/95 backdrop-blur-md shadow-lg'  // Vermelho vinho
-          : 'bg-[#6B0000]/90 backdrop-blur-sm'            // Vermelho vinho
+          ? 'bg-[#6B0000]/95 backdrop-blur-md shadow-lg'
+          : 'bg-[#6B0000]/90 backdrop-blur-sm'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+          {/* Logo - Versão melhorada */}
           <a href="#home" onClick={(e) => handleClick(e, '#home')} className="flex items-center gap-3">
             <div className="w-10 h-10 bg-[#C9A959]/20 rounded-lg flex items-center justify-center border border-[#C9A959]/30">
-              <svg className="w-6 h-6 text-[#C9A959]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M3 6l9-4 9 4v2l-9 4-9-4V6z" />
-                <path d="M3 10v2l9 4 9-4v-2" />
-                <path d="M3 14v2l9 4 9-4v-2" />
-              </svg>
+              <span className="text-[#C9A959] font-bold text-sm tracking-wider">S&D</span>
             </div>
             <div>
               <span className="text-xl font-bold text-white font-[family-name:var(--font-heading)]">
@@ -63,7 +59,7 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleClick(e, link.href)}
-                className="text-sm font-medium text-white/80 hover:text-[#C9A959] transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-[#C9A959] after:transition-all after:duration-300 hover:after:w-full"
+                className="text-sm font-medium text-white/80 hover:text-[#C9A959] transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#C9A959] after:transition-all after:duration-300 hover:after:w-full"
               >
                 {link.label}
               </a>
