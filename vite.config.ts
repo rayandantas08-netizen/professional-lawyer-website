@@ -3,18 +3,13 @@ import { fileURLToPath } from "url";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
-import { viteSingleFile } from "vite-plugin-singlefile";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   base: "/professional-lawyer-website/",
-  plugins: [
-    react(), 
-    tailwindcss(), 
-    viteSingleFile()
-  ],
+  plugins: [react(), tailwindcss()],  // ← Removeu viteSingleFile
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
@@ -23,21 +18,6 @@ export default defineConfig({
   build: {
     outDir: 'docs',
     assetsDir: '.',
-    // Forçar rebuild limpo
     emptyOutDir: true,
-    rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, 'src/index.html'),
-      },
-    },
-  },
-  // Forçar recarga do CSS
-  css: {
-    postcss: {
-      plugins: [
-        require('tailwindcss'),
-        require('autoprefixer'),
-      ],
-    },
-  },
+  }
 });
