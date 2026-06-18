@@ -8,8 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
-  base: "/professional-lawyer-website/",
-  plugins: [react(), tailwindcss()],  // ← Removeu viteSingleFile
+  base: "./",  // ← Mude de "/professional-lawyer-website/" para "./"
+  plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
