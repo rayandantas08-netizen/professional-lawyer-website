@@ -8,7 +8,7 @@ const teamMembers = [
     role: 'Sócia Fundadora',
     areas: 'Direito Trabalhista | Previdenciário | Saúde',
     photo: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663111964572/PadLDsXGCrEICQpO.jpeg',
-    bio: 'Especialista em Direito Trabalhista e Previdenciário. Formação em Direito FACIMP WYDEN. Mais de 8 anos de experiência defendendo os direitos dos trabalhadores e segurados.',
+    bio: 'Especialista em Direito Trabalhista e Previdenciário. Formação em Direito FACIMP WYDEN. Mais de 9 anos de experiência defendendo os direitos dos trabalhadores e segurados.',
     formation: [
       'Graduação em Direito - FACIMP WYDEN',
       'Pós-Graduação em Direito Processual Integrado: Trabalhista, Civil e Penal',
@@ -39,13 +39,13 @@ const teamMembers = [
     role: 'Sócio Fundador',
     areas: 'Direito Tributário | Empresarial | Contábil',
     photo: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663161078594/DHYzMvISArFVYEFg.jpg',
-    bio: 'Especialista em Direito Tributário e Empresarial. Formação em Direito pelo CEST. Mais de 10 anos de experiência em planejamento tributário e consultoria empresarial.',
+    bio: 'Especialista em Direito Tributário e Empresarial. Formação em Direito pelo FEST. Mais de 13 anos de experiência em planejamento tributário e consultoria empresarial.',
     formation: [
       'Graduação em Direito - FEST (2013)',
       'Pós-Graduação em Direito Processual Integrado Trabalhista, Civil e Penal',
     ],
     experience: [
-      { period: '2013 - 2026', desc: 'Escritorio de Contabilidade: FeedBack Associados Contabeis de Imperatriz Maranhão' },
+      { period: '2013 - Presente', desc: 'Escritorio de Contabilidade: FeedBack Associados' },
       { period: '2025 - Presente', desc: 'Fundador e Sócio do Escritório Santana & Dantas Advocacia' },
     ],
     specializations: [
