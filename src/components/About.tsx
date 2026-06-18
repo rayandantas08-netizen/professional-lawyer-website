@@ -1,3 +1,4 @@
+import { Scale, Target, Handshake, BookOpen } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
 
 export default function About() {
@@ -16,7 +17,7 @@ export default function About() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Image Side - REMOVIDO o relative */}
+          {/* Image Side */}
           <div className={`${isInView ? 'animate-slideInLeft' : 'opacity-0'}`}>
             <div className="relative">
               <img
@@ -24,18 +25,16 @@ export default function About() {
                 alt="Escritório Santana & Dantas Advocacia"
                 className="rounded-2xl shadow-2xl w-full object-cover"
               />
-              {/* Decorative border */}
               <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-secondary/30 rounded-2xl -z-10" />
             </div>
 
-            {/* Floating card - AGORA FORA DO POSICIONAMENTO ABSOLUTO */}
             <div className="mt-4 -ml-4 sm:ml-4 bg-white rounded-xl shadow-xl p-5 border-l-4 border-secondary max-w-[240px]">
               <div className="text-3xl font-bold text-primary font-[family-name:var(--font-heading)]">2025</div>
               <p className="text-sm text-gray-600 mt-1">Fundado com o propósito de excelência jurídica</p>
             </div>
           </div>
 
-          {/* Content Side - mantido igual */}
+          {/* Content Side */}
           <div className={`${isInView ? 'animate-slideInRight' : 'opacity-0'}`}>
             <h3 className="text-2xl sm:text-3xl font-bold text-primary mb-6 font-[family-name:var(--font-heading)]">
               Compromisso com a Excelência Jurídica
@@ -70,13 +69,13 @@ export default function About() {
             {/* Key Features */}
             <div className="mt-8 grid grid-cols-2 gap-4">
               {[
-                { icon: '**', text: 'Ética Profissional' },
-                { icon: '*', text: 'Foco em Resultados' },
-                { icon: '*', text: 'Atendimento Personalizado' },
-                { icon: '*', text: 'Atualização Constante' },
+                { icon: <Scale className="w-5 h-5 text-secondary" />, text: 'Ética Profissional' },
+                { icon: <Target className="w-5 h-5 text-secondary" />, text: 'Foco em Resultados' },
+                { icon: <Handshake className="w-5 h-5 text-secondary" />, text: 'Atendimento Personalizado' },
+                { icon: <BookOpen className="w-5 h-5 text-secondary" />, text: 'Atualização Constante' },
               ].map((item) => (
                 <div key={item.text} className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors">
-                  <span className="text-xl">{item.icon}</span>
+                  {item.icon}
                   <span className="text-sm font-medium text-gray-800">{item.text}</span>
                 </div>
               ))}
