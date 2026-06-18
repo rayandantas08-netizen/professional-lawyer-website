@@ -35,7 +35,7 @@ const teamMembers = [
   },
   {
     id: 'thiago',
-    name: 'Dr. Thiago Lopes',
+    name: 'Dr. Thiago Santana',
     role: 'Sócio Fundador',
     areas: 'Direito Tributário | Empresarial | Contábil',
     photo: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663161078594/DHYzMvISArFVYEFg.jpg',
