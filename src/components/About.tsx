@@ -17,20 +17,22 @@ export default function About() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Image Side */}
-          <div className={`${isInView ? 'animate-slideInLeft' : 'opacity-0'}`}>
-            <div className="relative">
+          {/* Image Side - CENTRALIZADA */}
+          <div className={`flex justify-center ${isInView ? 'animate-slideInLeft' : 'opacity-0'}`}>
+            <div className="relative w-full max-w-[500px]">
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663161078594/ZUMkEfcLhaKblkBV.png"
                 alt="Escritório Santana & Dantas Advocacia"
-                className="rounded-2xl shadow-2xl w-full object-cover"
+                className="rounded-2xl shadow-2xl w-full h-auto object-cover"
               />
+              {/* Borda decorativa */}
               <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-secondary/30 rounded-2xl -z-10" />
-            </div>
-
-            <div className="mt-4 -ml-4 sm:ml-4 bg-white rounded-xl shadow-xl p-5 border-l-4 border-secondary max-w-[240px]">
-              <div className="text-3xl font-bold text-primary font-[family-name:var(--font-heading)]">2025</div>
-              <p className="text-sm text-gray-600 mt-1">Fundado com o propósito de excelência jurídica</p>
+              
+              {/* Card 2025 - AGORA DENTRO DA IMAGEM */}
+              <div className="absolute -bottom-6 -left-4 sm:left-4 bg-white rounded-xl shadow-xl p-5 border-l-4 border-secondary max-w-[220px]">
+                <div className="text-3xl font-bold text-primary font-[family-name:var(--font-heading)]">2025</div>
+                <p className="text-sm text-gray-600 mt-1">Fundado com o propósito de excelência jurídica</p>
+              </div>
             </div>
           </div>
 
