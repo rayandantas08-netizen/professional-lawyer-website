@@ -1,18 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  /* 🟢 Cores principais - VERMELHO VINHO */
-  --color-primary: #6B0000;        /* Vermelho vinho escuro (principal) */
-  --color-primary-light: #8B0000;   /* Vermelho vinho mais claro */
-  --color-primary-dark: #4A0000;    /* Vermelho vinho mais escuro */
-  
-  /* 🟡 Dourado - manter igual */
+  /* 🔴 CORES VERMELHO VINHO */
+  --color-primary: #6B0000;
+  --color-primary-light: #8B0000;
+  --color-primary-dark: #4A0000;
   --color-secondary: #C9A959;
   --color-secondary-light: #D4B768;
-  
-  /* 🔴 Cor de acento (já era vinho, manter) */
   --color-accent: #8B0000;
-  
   --color-dark: #1a1a1a;
   --color-gray: #6c757d;
   --color-light-gray: #e9ecef;
@@ -35,7 +30,6 @@ h1, h2, h3, h4, h5 {
   font-family: var(--font-heading);
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -53,7 +47,7 @@ h1, h2, h3, h4, h5 {
   background: var(--color-primary-light);
 }
 
-/* Animations */
+/* Animações */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -126,11 +120,9 @@ h1, h2, h3, h4, h5 {
   animation: float 3s ease-in-out infinite;
 }
 
-/* Delay classes */
 .delay-100 { animation-delay: 0.1s; }
 .delay-200 { animation-delay: 0.2s; }
 .delay-300 { animation-delay: 0.3s; }
 .delay-400 { animation-delay: 0.4s; }
 .delay-500 { animation-delay: 0.5s; }
 .delay-600 { animation-delay: 0.6s; }
-
