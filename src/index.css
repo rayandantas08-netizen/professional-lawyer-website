@@ -1,11 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #0a2c5e;
-  --color-primary-light: #133d7a;
-  --color-secondary: #c9a959;
-  --color-secondary-light: #d4b768;
-  --color-accent: #8b0000;
+  /* 🟢 Cores principais - VERMELHO VINHO */
+  --color-primary: #6B0000;        /* Vermelho vinho escuro (principal) */
+  --color-primary-light: #8B0000;   /* Vermelho vinho mais claro */
+  --color-primary-dark: #4A0000;    /* Vermelho vinho mais escuro */
+  
+  /* 🟡 Dourado - manter igual */
+  --color-secondary: #C9A959;
+  --color-secondary-light: #D4B768;
+  
+  /* 🔴 Cor de acento (já era vinho, manter) */
+  --color-accent: #8B0000;
+  
   --color-dark: #1a1a1a;
   --color-gray: #6c757d;
   --color-light-gray: #e9ecef;
