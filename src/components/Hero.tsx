@@ -40,7 +40,7 @@ export default function Hero() {
         {/* CTAs */}
         <div className="animate-fadeInUp delay-300 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://wa.me/5598984994578?text=Olá! Gostaria de agendar uma consulta."
+            href="https://wa.me/5599984881281?text=Olá! Gostaria de agendar uma consulta."
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 bg-secondary text-primary px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 hover:bg-secondary-light hover:shadow-2xl hover:-translate-y-1"
