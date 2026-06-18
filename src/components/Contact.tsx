@@ -4,7 +4,6 @@ export default function Contact() {
   const { ref, isInView } = useInView(0.1);
 
   const contactInfo = [
-    {/* icone Fernanda */}
     {
       icon: (
         <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
@@ -15,7 +14,6 @@ export default function Contact() {
       value: '(99) 98488-1281',
       link: 'https://wa.me/5599984881281',
     },
-      {/* icone Thiago */}
      {
       icon: (
         <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
