@@ -37,7 +37,7 @@ export default function WhatsAppButton() {
             </p>
           </div>
           <a
-            href="https://wa.me/5598984994578?text=Olá! Gostaria de agendar uma consulta."
+            href="https://wa.me/5599984881281?text=Olá! Gostaria de agendar uma consulta."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-semibold text-sm transition-colors"
