@@ -70,7 +70,14 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                 </svg>
-                <span className="text-white/60 text-sm">Imperatriz - Maranhão</span>
+                <a 
+                  href="https://maps.app.goo.gl/sz48Nid6cFREggsv5" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-white/60 hover:text-secondary text-sm transition-colors"
+                >
+                  Imperatriz - Maranhão
+                </a>
               </li>
 
               {/* ✅ TELEFONE 1 */}
