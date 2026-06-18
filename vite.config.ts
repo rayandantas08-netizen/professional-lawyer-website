@@ -8,17 +8,36 @@ import { viteSingleFile } from "vite-plugin-singlefile";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// https://vite.dev/config/
 export default defineConfig({
   base: "/professional-lawyer-website/",
-  plugins: [react(), tailwindcss(), viteSingleFile()],
+  plugins: [
+    react(), 
+    tailwindcss(), 
+    viteSingleFile()
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
     },
   },
   build: {
-    outDir: 'docs',  
+    outDir: 'docs',
     assetsDir: '.',
-  }
+    // Forçar rebuild limpo
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'src/index.html'),
+      },
+    },
+  },
+  // Forçar recarga do CSS
+  css: {
+    postcss: {
+      plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+      ],
+    },
+  },
 });
