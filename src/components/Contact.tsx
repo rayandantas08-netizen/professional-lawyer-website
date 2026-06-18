@@ -44,7 +44,7 @@ export default function Contact() {
       ),
       label: 'Localização',
       value: 'Imperatriz - Maranhão',
-      link: '#',
+      link: 'https://maps.app.goo.gl/sz48Nid6cFREggsv5',  // ✅ Link do Google Maps
     },
     {
       icon: (
