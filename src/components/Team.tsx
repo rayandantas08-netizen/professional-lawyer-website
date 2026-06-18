@@ -41,18 +41,17 @@ const teamMembers = [
     photo: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663161078594/DHYzMvISArFVYEFg.jpg',
     bio: 'Especialista em Direito Tributário e Empresarial. Formação em Direito pelo CEST. Mais de 10 anos de experiência em planejamento tributário e consultoria empresarial.',
     formation: [
-      'Graduação em Direito - CEST',
-      'Pós-Graduação em Direito Tributário',
-      'MBA em Gestão Empresarial e Contabilidade',
+      'Graduação em Direito - FEST (2013)',
+      'Pós-Graduação em Direito Processual Integrado Trabalhista, Civil e Penal',
     ],
     experience: [
-      { period: '2015 - 2025', desc: 'Advogado Tributarista e Consultor Empresarial' },
+      { period: '2013 - 2026', desc: 'Escritorio de Contabilidade: FeedBack Associados Contabeis de Imperatriz Maranhão' },
       { period: '2025 - Presente', desc: 'Fundador e Sócio do Escritório Santana & Dantas Advocacia' },
     ],
     specializations: [
       'Direito Tributário', 'Direito Empresarial', 'Planejamento Tributário',
       'Recuperação de Créditos', 'Regularização Fiscal', 'Consultoria Contábil',
-      'Defesa Administrativa', 'Compliance Tributário',
+      'Defesa Administrativa', 'Compliance Tributário','Direito das Sucessões',
     ],
     awards: [
       'Reconhecido pela excelência em Planejamento Tributário - OAB/MA',
