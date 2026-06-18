@@ -11,8 +11,8 @@ export default function Contact() {
         </svg>
       ),
       label: 'Telefone / WhatsApp',
-      value: '(98) 98499-4578',
-      link: 'https://wa.me/5598984994578',
+      value: '(99) 98488-1281',
+      link: 'https://wa.me/5599984881281',
     },
     {
       icon: (
@@ -32,7 +32,7 @@ export default function Contact() {
         </svg>
       ),
       label: 'Localização',
-      value: 'São Luís - Maranhão',
+      value: 'Imperatriz - Maranhão',
       link: '#',
     },
     {
@@ -144,7 +144,7 @@ export default function Contact() {
                 ].map((msg) => (
                   <a
                     key={msg}
-                    href={`https://wa.me/5598984994578?text=${encodeURIComponent(`Olá! ${msg}.`)}`}
+                    href={`https://wa.me/5599984881281?text=${encodeURIComponent(`Olá! ${msg}.`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-4 rounded-xl border border-gray-200 hover:border-secondary hover:bg-secondary/5 transition-all duration-300 group"
@@ -165,7 +165,7 @@ export default function Contact() {
 
               {/* Main WhatsApp CTA */}
               <a
-                href="https://wa.me/5598984994578?text=Olá! Gostaria de agendar uma consulta."
+                href="https://wa.me/5599984881281?text=Olá! Gostaria de agendar uma consulta."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center gap-3 bg-green-600 hover:bg-green-700 text-white py-4 px-6 rounded-xl font-bold text-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5"
