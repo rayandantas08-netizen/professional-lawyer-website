@@ -154,7 +154,7 @@ export default function Areas() {
         {/* CTA */}
         <div className={`text-center mt-12 ${isInView ? 'animate-fadeInUp delay-600' : 'opacity-0'}`}>
           <a
-            href="https://wa.me/5598984994578?text=Olá! Gostaria de saber mais sobre as áreas de atuação."
+            href="https://wa.me/5599984881281?text=Olá! Gostaria de saber mais sobre as áreas de atuação."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-primary text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:bg-primary-light hover:shadow-xl hover:-translate-y-1"
