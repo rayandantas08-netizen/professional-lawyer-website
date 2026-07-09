@@ -167,27 +167,22 @@ export default function Contact() {
                   { 
                     label: 'Quero agendar uma consulta sobre Direito Previdenciário',
                     numero: '5599984881281',
-                    especialista: 'Dra. Fernanda Dantas'
                   },
                   { 
                     label: 'Preciso de assessoria em Direito Trabalhista',
                     numero: '5599984881281',
-                    especialista: 'Dra. Fernanda Dantas'
                   },
                   { 
                     label: 'Gostaria de consultoria em Direito Tributário',
-                    numero: '5599984042123',
-                    especialista: 'Dr. Thiago Santana'
+                    numero: '5599984881281',
                   },
                   { 
                     label: 'Tenho uma questão sobre Direito da Saúde',
                     numero: '5599984881281',
-                    especialista: 'Dra. Fernanda Dantas'
                   },
                   { 
                     label: 'Outra questão jurídica',
                     numero: '5599984881281',
-                    especialista: 'equipe Santana & Dantas'
                   },
                 ].map((item) => (
                   <a
