@@ -51,7 +51,7 @@ const teamMembers = [
       'Defesa Administrativa', 'Compliance Tributário','Direito das Sucessões',
     ],
     awards: [
-      'Reconhecido pela excelência em Planejamento Tributário - OAB/MA',
+      'Excelência em Planejamento Tributário',
       'Consultor tributário de referência no Maranhão',
     ],
     highlights: [
