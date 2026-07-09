@@ -68,6 +68,15 @@ export default function Hero() {
           </a>
         </div>
 
+        {/* ✅ ÍCONE DE SCROLL ABAIXO DOS BOTÕES */}
+        <div className="animate-fadeInUp delay-500 mt-8 flex justify-center">
+          <div className="animate-bounce">
+            <svg className="w-6 h-6 text-white/50" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+          </div>
+        </div>
+
         {/* Stats */}
         <div className="animate-fadeInUp delay-500 mt-16 max-w-3xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -84,8 +93,8 @@ export default function Hero() {
             ))}
           </div>
 
-          {/* ✅ Estados de Atuação - MA, PA, TO */}
-          <div className="mt-6 text-center mb-12">
+          {/* Estados de Atuação */}
+          <div className="mt-6 text-center">
             <p className="text-xs text-white/50 font-medium tracking-wider uppercase mb-2">
               Atuação nos estados
             </p>
@@ -101,13 +110,6 @@ export default function Hero() {
               ))}
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-8 h-12 border-2 border-white/30 rounded-full flex items-start justify-center p-2">
-          <div className="w-1.5 h-3 bg-white/60 rounded-full" />
         </div>
       </div>
     </section>
