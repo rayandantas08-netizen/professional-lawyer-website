@@ -69,18 +69,38 @@ export default function Hero() {
         </div>
 
         {/* Stats */}
-        <div className="animate-fadeInUp delay-500 mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
-          {[
-            { number: '+8', label: 'Anos de Experiência' },
-            { number: '50+', label: 'Clientes Atendidos' },
-            { number: '3', label: 'Estados Atendidos         MA, PA e TO' },
-            { number: '4', label: 'Áreas de Atuação' },
-          ].map((stat) => (
-            <div key={stat.label} className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-secondary font-[family-name:var(--font-heading)]">{stat.number}</div>
-              <div className="text-sm text-white/70 mt-1">{stat.label}</div>
+        <div className="animate-fadeInUp delay-500 mt-16 max-w-3xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {[
+              { number: '+8', label: 'Anos de Experiência' },
+              { number: '50+', label: 'Clientes Atendidos' },
+              { number: '3', label: 'Estados Atendidos' },
+              { number: '4', label: 'Áreas de Atuação' },
+            ].map((stat) => (
+              <div key={stat.label} className="text-center">
+                <div className="text-3xl sm:text-4xl font-bold text-secondary font-[family-name:var(--font-heading)]">{stat.number}</div>
+                <div className="text-sm text-white/70 mt-1">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+
+          {/* ✅ Estados de Atuação - MA, PA, TO */}
+          <div className="mt-6 text-center">
+            <p className="text-xs text-white/50 font-medium tracking-wider uppercase mb-2">
+              Atuação nos estados
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              {['MA', 'PA', 'TO'].map((estado) => (
+                <span
+                  key={estado}
+                  className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 text-white font-semibold text-sm"
+                >
+                  <span className="w-1.5 h-1.5 bg-secondary rounded-full" />
+                  {estado}
+                </span>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </div>
 
