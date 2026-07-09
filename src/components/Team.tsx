@@ -12,7 +12,6 @@ const teamMembers = [
     formation: [
       'Graduação em Direito - FACIMP WYDEN',
       'Pós-Graduação em Direito Processual Integrado: Trabalhista, Civil e Penal',
-      'Pós-Graduação em Direito Previdenciário - Universidade Federal do Maranhão (UFMA)',
     ],
     experience: [
       { period: '2017 - 2025', desc: 'Advogada Trabalhista e Previdenciária' },
@@ -28,9 +27,7 @@ const teamMembers = [
       'Listada no Anuário dos Melhores Advogados do Maranhão (2018-2023)',
     ],
     highlights: [
-      'Concessão de aposentadoria especial para trabalhador exposto a agentes nocivos por mais de 25 anos',
-      'Representação de mais de 50 clientes em ações previdenciárias com taxa de sucesso superior a 95%',
-      'Ação bem-sucedida contra plano de saúde para fornecimento de medicamento de alto custo',
+      'Representação de mais de 200 clientes em ações previdenciárias',
     ],
   },
   {
