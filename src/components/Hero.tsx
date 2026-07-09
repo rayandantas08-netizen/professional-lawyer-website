@@ -82,7 +82,7 @@ export default function Hero() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
               { number: '+8', label: 'Anos de Experiência' },
-              { number: '+200', label: 'Clientes Atendidos' },
+              { number: '+500', label: 'Clientes Atendidos' },
               { number: '3', label: 'Estados Atendidos' },
               { number: '4', label: 'Áreas de Atuação' },
             ].map((stat) => (
