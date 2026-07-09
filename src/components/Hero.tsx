@@ -73,7 +73,7 @@ export default function Hero() {
           {[
             { number: '+8', label: 'Anos de Experiência' },
             { number: '50+', label: 'Clientes Atendidos' },
-            { number: '3', label: 'Estados Atendidos   MA, PA e TO' },
+            { number: '3', label: 'Estados Atendidos         MA, PA e TO' },
             { number: '4', label: 'Áreas de Atuação' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
