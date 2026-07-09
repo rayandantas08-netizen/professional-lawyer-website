@@ -39,10 +39,10 @@ const teamMembers = [
     bio: 'Especialista em Direito Tributário e Empresarial. Formação em Direito pelo FEST. Mais de 13 anos de experiência em planejamento tributário e consultoria empresarial.',
     formation: [
       'Graduação em Direito - FEST (2013)',
-      'Pós-Graduação em Direito Processual Integrado Trabalhista, Civil e Penal',
+      'Pós-Graduando em Direito Processual Integrado Trabalhista, Civil e Penal',
     ],
     experience: [
-      { period: '2013 - Presente', desc: 'Escritorio de Contabilidade: FeedBack Associados' },
+      { period: '2006 - 2025', desc: 'Setor fiscal - Feedback Associados Contabil' },
       { period: '2025 - Presente', desc: 'Fundador e Sócio do Escritório Santana & Dantas Advocacia' },
     ],
     specializations: [
@@ -55,9 +55,7 @@ const teamMembers = [
       'Consultor tributário de referência no Maranhão',
     ],
     highlights: [
-      'Recuperação de créditos tributários superiores a R$ 2 milhões para empresas',
-      'Planejamento tributário com economia fiscal média de 30% para seus clientes',
-      'Defesa em mais de 100 processos administrativos fiscais com alto índice de êxito',
+      'Consultoria tributaria especializada nos estados TO, PA e MA.',
     ],
   },
 ];
