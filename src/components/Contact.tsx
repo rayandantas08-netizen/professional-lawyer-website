@@ -153,18 +153,38 @@ export default function Contact() {
                 Envie uma mensagem diretamente pelo WhatsApp e nossa equipe retornará o mais breve possível.
               </p>
 
-              {/* Quick Contact Options */}
+              {/* Quick Contact Options - Cada um com seu número */}
               <div className="space-y-4 mb-8">
                 {[
-                  'Quero agendar uma consulta sobre Direito Previdenciário',
-                  'Preciso de assessoria em Direito Trabalhista',
-                  'Gostaria de consultoria em Direito Tributário',
-                  'Tenho uma questão sobre Direito da Saúde',
-                  'Outra questão jurídica',
-                ].map((msg) => (
+                  { 
+                    label: 'Quero agendar uma consulta sobre Direito Previdenciário',
+                    numero: '5599984881281',
+                    especialista: 'Dra. Fernanda Dantas'
+                  },
+                  { 
+                    label: 'Preciso de assessoria em Direito Trabalhista',
+                    numero: '5599984881281',
+                    especialista: 'Dra. Fernanda Dantas'
+                  },
+                  { 
+                    label: 'Gostaria de consultoria em Direito Tributário',
+                    numero: '5599984042123',
+                    especialista: 'Dr. Thiago Santana'
+                  },
+                  { 
+                    label: 'Tenho uma questão sobre Direito da Saúde',
+                    numero: '5599984881281',
+                    especialista: 'Dra. Fernanda Dantas'
+                  },
+                  { 
+                    label: 'Outra questão jurídica',
+                    numero: '5599984881281',
+                    especialista: 'equipe Santana & Dantas'
+                  },
+                ].map((item) => (
                   <a
-                    key={msg}
-                    href={`https://wa.me/5599984881281?text=${encodeURIComponent(`Olá! ${msg}.`)}`}
+                    key={item.label}
+                    href={`https://wa.me/${item.numero}?text=${encodeURIComponent(`Olá! ${item.label}.`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-4 rounded-xl border border-gray-200 hover:border-secondary hover:bg-secondary/5 transition-all duration-300 group"
@@ -175,7 +195,14 @@ export default function Contact() {
                         <path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492l4.624-1.467A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75c-2.17 0-4.207-.69-5.87-1.868l-.42-.281-2.744.87.912-2.665-.308-.461A9.708 9.708 0 012.25 12c0-5.385 4.365-9.75 9.75-9.75S21.75 6.615 21.75 12s-4.365 9.75-9.75 9.75z" />
                       </svg>
                     </div>
-                    <span className="text-sm font-medium text-dark group-hover:text-primary transition-colors">{msg}</span>
+                    <div className="flex-1">
+                      <span className="text-sm font-medium text-dark group-hover:text-primary transition-colors">
+                        {item.label}
+                      </span>
+                      <span className="block text-xs text-gray-400">
+                        Falar com {item.especialista}
+                      </span>
+                    </div>
                     <svg className="w-4 h-4 text-gray ml-auto shrink-0 group-hover:text-secondary group-hover:translate-x-1 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                     </svg>
