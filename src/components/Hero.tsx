@@ -85,7 +85,7 @@ export default function Hero() {
           </div>
 
           {/* ✅ Estados de Atuação - MA, PA, TO */}
-          <div className="mt-6 text-center">
+          <div className="mt-6 text-center mb-12">
             <p className="text-xs text-white/50 font-medium tracking-wider uppercase mb-2">
               Atuação nos estados
             </p>
