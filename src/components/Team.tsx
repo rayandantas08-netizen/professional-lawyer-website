@@ -39,6 +39,7 @@ const teamMembers = [
     bio: 'Especialista em Direito Tributário e Empresarial. Formação em Direito pelo FEST. Mais de 13 anos de experiência em planejamento tributário e consultoria empresarial.',
     formation: [
       'Graduação em Direito - FEST (2013)',
+      'Graduação em Ciências Contábeis - Estácio (2023)',
       'Pós-Graduando em Direito Processual Integrado Trabalhista, Civil e Penal',
     ],
     experience: [
