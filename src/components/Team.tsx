@@ -11,7 +11,7 @@ const teamMembers = [
     bio: 'Especialista em Direito Trabalhista e Previdenciário. Formação em Direito FACIMP WYDEN. Mais de 9 anos de experiência defendendo os direitos dos trabalhadores e segurados.',
     formation: [
       'Graduação em Direito - FACIMP WYDEN',
-      'Pós-Graduação em Direito Processual Integrado: Trabalhista, Civil e Penal',
+      'Pós-Graduando em Direito Processual Integrado: Trabalhista, Civil e Penal',
     ],
     experience: [
       { period: '2017 - 2025', desc: 'Advogada Trabalhista e Previdenciária' },
@@ -23,8 +23,7 @@ const teamMembers = [
       'Ações contra Planos de Saúde', 'Direitos do Trabalhador',
     ],
     awards: [
-      'Prêmio "Mulheres na Advocacia" - OAB/MA (2022)',
-      'Listada no Anuário dos Melhores Advogados do Maranhão (2018-2023)',
+      'Prêmio "Melhores do ano de Itinga do Maranhão - Categoria Advogada"',
     ],
     highlights: [
       'Representação de mais de 200 clientes em ações previdenciárias',
