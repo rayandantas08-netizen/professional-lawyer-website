@@ -68,6 +68,25 @@ const areas = [
       { name: 'Acesso ao SUS', desc: 'Garantia de acesso a tratamentos pelo sistema público.' },
     ],
   },
+  {
+    id: 'sucessorio',
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75" />
+      </svg>
+    ),
+    title: 'Direito Sucessório',
+    description: 'Atuação especializada em planejamento sucessório, inventários, partilhas de bens, testamentos, doações e regularização de heranças, garantindo a proteção do patrimônio e a vontade do falecido.',
+    services: [
+      { name: 'Inventário Judicial e Extrajudicial', desc: 'Acompanhamento completo do processo de inventário, seja judicial ou extrajudicial, com agilidade e segurança.' },
+      { name: 'Planejamento Sucessório', desc: 'Elaboração de estratégias para proteção do patrimônio e redução de impostos na transmissão de bens.' },
+      { name: 'Testamento e Doações', desc: 'Elaboração de testamentos, codicilos e doações em vida, com orientação sobre as melhores alternativas.' },
+      { name: 'Partilha de Bens', desc: 'Atuação na divisão de bens entre herdeiros, resolvendo conflitos e garantindo a justa distribuição.' },
+      { name: 'Inventário Negativo', desc: 'Declaração de inexistência de bens para encerramento do espólio.' },
+      { name: 'Regularização de Heranças', desc: 'Regularização de bens herdados, incluindo imóveis, veículos e contas bancárias.' },
+    ],
+  },
 ];
 
 export default function Areas() {
