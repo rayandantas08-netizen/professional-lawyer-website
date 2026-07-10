@@ -52,7 +52,7 @@ const teamMembers = [
     ],
     awards: [
       'Excelência em Planejamento Tributário',
-      'Consultor tributário de referência no Maranhão',
+      'Consultor tributário no Maranhão, Pará e Tocantins',
     ],
     highlights: [
       'Consultoria tributaria especializada nos estados TO, PA e MA.',
