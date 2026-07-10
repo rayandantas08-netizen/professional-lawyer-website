@@ -15,7 +15,7 @@ const teamMembers = [
     ],
     experience: [
       { period: '2017 - 2025', desc: 'Advogada Trabalhista e Previdenciária' },
-      { period: '2025 - Presente', desc: 'Fundadora e Sócia do Escritório Santana & Dantas Advocacia' },
+      { period: '2025 - Presente', desc: 'Sócia Fundadora do Escritório Santana & Dantas Advocacia' },
     ],
     specializations: [
       'Direito Trabalhista', 'Direito Previdenciário', 'Direito da Saúde',
@@ -43,7 +43,7 @@ const teamMembers = [
     ],
     experience: [
       { period: '2006 - 2025', desc: 'Setor fiscal - Feedback Associados Contabil' },
-      { period: '2025 - Presente', desc: 'Fundador e Sócio do Escritório Santana & Dantas Advocacia' },
+      { period: '2025 - Presente', desc: 'Sócio Fundador do Escritório Santana & Dantas Advocacia' },
     ],
     specializations: [
       'Direito Tributário', 'Direito Empresarial', 'Planejamento Tributário',
