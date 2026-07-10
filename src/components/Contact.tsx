@@ -202,9 +202,6 @@ export default function Contact() {
                       <span className="text-sm font-medium text-dark group-hover:text-primary transition-colors">
                         {item.label}
                       </span>
-                      <span className="block text-xs text-gray-400">
-                        Falar com {item.especialista}
-                      </span>
                     </div>
                     <svg className="w-4 h-4 text-gray ml-auto shrink-0 group-hover:text-secondary group-hover:translate-x-1 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
