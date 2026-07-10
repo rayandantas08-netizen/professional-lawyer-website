@@ -49,7 +49,7 @@ export default function About() {
                 Desde a sua origem, nossa atuação é pautada pela excelência, ética profissional e pelo compromisso com a qualidade dos serviços prestados.
               </p>
               <p>
-                Contamos com a expertise de nossos dois sócio-fundadores, <strong className="text-primary">Dra. Fernanda Dantas</strong> e <strong className="text-primary">Dr. Thiago Lopes</strong>, profissionais altamente qualificados e em constante atualização com as mais recentes mudanças na legislação.
+                Contamos com a expertise de nossos dois sócio-fundadores, <strong className="text-primary">Dra. Fernanda Dantas</strong> e <strong className="text-primary">Dr. Thiago Santana</strong>, profissionais altamente qualificados e em constante atualização com as mais recentes mudanças na legislação.
               </p>
             </div>
 
