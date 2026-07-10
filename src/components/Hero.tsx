@@ -84,7 +84,7 @@ export default function Hero() {
               { number: '+8', label: 'Anos de Experiência' },
               { number: '+500', label: 'Clientes Atendidos' },
               { number: '3', label: 'Estados Atendidos' },
-              { number: '4', label: 'Áreas de Atuação' },
+              { number: '5', label: 'Áreas de Atuação' },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-3xl sm:text-4xl font-bold text-secondary font-[family-name:var(--font-heading)]">{stat.number}</div>
